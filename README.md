@@ -1,8 +1,3 @@
-¡Perfecto! Con base en el código que compartiste, aquí tienes un `README.md` claro, profesional y completo para tu paquete **Laratheme**. Está diseñado para que sea fácilmente entendible para usuarios de Laravel que desean integrar soporte de temas en sus proyectos.
-
----
-
-````markdown
 # 🎨 Laratheme
 
 **Laratheme** es un paquete para Laravel que permite gestionar múltiples **temas visuales** (themes), facilitando la personalización de vistas y assets para tu aplicación.
