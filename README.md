@@ -42,7 +42,7 @@ Archivo de configuración: `config/theme.php`
 
 ```php
 return [
-    'default' => env('THEME_DEFAULT', 'default'),
+    'active' => env('THEME_ACTIVE', 'default'),
 
     'paths' => [
         'views' => env('THEME_VIEWS_PATH', resource_path('themes')),

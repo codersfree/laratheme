@@ -38,6 +38,9 @@ class ThemeServiceProvider extends ServiceProvider
         ], 'theme-stubs');
 
         //Agregar namespacio para las vistas del tema activo
-        View::addNamespace('theme', config('theme.paths.views') . '/' . config('theme.active'));
+        View::addNamespace('theme', [
+            config('theme.paths.views') . '/' . config('theme.active'),
+            resource_path('views'),
+        ]);
     }
 }
